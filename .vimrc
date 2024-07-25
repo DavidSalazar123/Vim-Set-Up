@@ -108,3 +108,15 @@ nnoremap <C-u> <C-u>zz
 " Map dd to delete to the blackhole register so it doesn't affect the paste buffer.
 nnoremap dd "_dd
 
+" Delete a character without affecting the paste buffer
+nnoremap x "_x
+
+" Delete a word without affecting the paste buffer
+nnoremap dw "_dw
+
+" Delete to the end of the line without affecting the paste buffer
+nnoremap D "_D
+
+" Delete a motion without affecting the paste buffer
+nnoremap d "_d
+
